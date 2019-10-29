@@ -1,5 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background: #C46F70;
+	background: black;
+}
+h1{
+	color: rgb(204, 255, 204);
+}
+h2{
+	color: rgb(255, 128, 128);
+}
+h3{
+	color: rgba(145,19,179,1.00);
 }
