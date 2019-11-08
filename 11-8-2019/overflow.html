@@ -1,0 +1,354 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+	<style type="text/css">
+		div{
+			background:#000000;
+			color:rgba(255,255,255,1.00);
+			height: 200px;
+			font-size: 20px;
+			width: 900px;
+		}
+		#target1{
+			overflow: visible;
+		}#target2{
+			overflow: hidden;
+		}#target3{
+			overflow: scroll;
+		}#target4{
+			overflow: auto;
+		}
+	</style>
+<body>
+	<pre>Kiểm soát nội dung khi nội dung quá lớn so với cái thẻ chứa nó
+		Các Giá trị:
+			- visible: Giá trị mặc định, sẽ dc hiển thị.
+			- hidden: ẩn đi phần nội dung  vượt quá kích cỡ thẻ html
+			- scroll: luôn hiện thanh scroll chuột khi nội dung vượt quá kích cỡ thẻ html
+			- auto : hiện Scroll nếu vượt quá và ngược lại
+	</pre>
+	<table>
+		<tr><td><h1>overflow: visible</h1>
+	<div id="target1">
+	Non nước hữu tình ba miền xinh đẹp quá
+	Từ những câu hò ý nhạc thành bài ca
+	Ngày vui em đến thăm Hà Nội
+	Gió chiều Hồ Gươm vang bóng thời xưa
+	Ba sáu phố phường năm cửa ô cổ kính
+	Về đất Quan Họ hát mừng ngày hội lim
+	Ngẫn ngơ như bức tranh tuyệt vời
+	Ngắm vịnh Hạ Long ngất ngây chùa Hương.
+	Đến Huế rồi thương dòng sông Hương
+	Đường qua Vĩ Dạ chợ Đông Ba Ngự Bình
+	Thăm lăng di tích thăm Thiên Mụ
+	Tóc thề chấm vai nghiên nón qua Tràng Tiền
+	Đêm trăng buồn trên bến Vân Lâu
+	Ngâm câu mái đẩy giọng ai nghe thắm sầu
+	Bên ni bên nớ ai mong chờ
+	Xa rồi mà lòng thương Huế đẹp mộng mơ.
+	Về Sài Gòn đọc qua lịch sử
+	Từ lúc khai hoang xuống miền lục tỉnh xưa
+	Cho hôm nay tương lai thêm sáng ngời
+	Làm khách bốn phương đến rồi không nỡ đi
+	Đèn Sài Gòn ngọn xanh ngọn đỏ
+	Thành phố xa hoa suốt từ ba thế kỷ qua
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.Non nước hữu tình ba miền xinh đẹp quá
+	Từ những câu hò ý nhạc thành bài ca
+	Ngày vui em đến thăm Hà Nội
+	Gió chiều Hồ Gươm vang bóng thời xưa
+	Ba sáu phố phường năm cửa ô cổ kính
+	Về đất Quan Họ hát mừng ngày hội lim
+	Ngẫn ngơ như bức tranh tuyệt vời
+	Ngắm vịnh Hạ Long ngất ngây chùa Hương.
+	Đến Huế rồi thương dòng sông Hương
+	Đường qua Vĩ Dạ chợ Đông Ba Ngự Bình
+	Thăm lăng di tích thăm Thiên Mụ
+	Tóc thề chấm vai nghiên nón qua Tràng Tiền
+	Đêm trăng buồn trên bến Vân Lâu
+	Ngâm câu mái đẩy giọng ai nghe thắm sầu
+	Bên ni bên nớ ai mong chờ
+	Xa rồi mà lòng thương Huế đẹp mộng mơ.
+	Về Sài Gòn đọc qua lịch sử
+	Từ lúc khai hoang xuống miền lục tỉnh xưa
+	Cho hôm nay tương lai thêm sáng ngời
+	Làm khách bốn phương đến rồi không nỡ đi
+	Đèn Sài Gòn ngọn xanh ngọn đỏ
+	Thành phố xa hoa suốt từ ba thế kỷ qua
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.Non nước hữu tình ba miền xinh đẹp quá
+	Từ những câu hò ý nhạc thành bài ca
+	Ngày vui em đến thăm Hà Nội
+	Gió chiều Hồ Gươm vang bóng thời xưa
+	Ba sáu phố phường năm cửa ô cổ kính
+	Về đất Quan Họ hát mừng ngày hội lim
+	Ngẫn ngơ như bức tranh tuyệt vời
+	Ngắm vịnh Hạ Long ngất ngây chùa Hương.
+	Đến Huế rồi thương dòng sông Hương
+	Đường qua Vĩ Dạ chợ Đông Ba Ngự Bình
+	Thăm lăng di tích thăm Thiên Mụ
+	Tóc thề chấm vai nghiên nón qua Tràng Tiền
+	Đêm trăng buồn trên bến Vân Lâu
+	Ngâm câu mái đẩy giọng ai nghe thắm sầu
+	Bên ni bên nớ ai mong chờ
+	Xa rồi mà lòng thương Huế đẹp mộng mơ.
+	Về Sài Gòn đọc qua lịch sử
+	Từ lúc khai hoang xuống miền lục tỉnh xưa
+	Cho hôm nay tương lai thêm sáng ngời
+	Làm khách bốn phương đến rồi không nỡ đi
+	Đèn Sài Gòn ngọn xanh ngọn đỏ
+	Thành phố xa hoa suốt từ ba thế kỷ qua
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	</div>
+	</td></tr>
+	
+	<h1>overflow: hidden</h1>
+	<div id="target2">
+	Non nước hữu tình ba miền xinh đẹp quá
+	Từ những câu hò ý nhạc thành bài ca
+	Ngày vui em đến thăm Hà Nội
+	Gió chiều Hồ Gươm vang bóng thời xưa
+	Ba sáu phố phường năm cửa ô cổ kính
+	Về đất Quan Họ hát mừng ngày hội lim
+	Ngẫn ngơ như bức tranh tuyệt vời
+	Ngắm vịnh Hạ Long ngất ngây chùa Hương.
+	Đến Huế rồi thương dòng sông Hương
+	Đường qua Vĩ Dạ chợ Đông Ba Ngự Bình
+	Thăm lăng di tích thăm Thiên Mụ
+	Tóc thề chấm vai nghiên nón qua Tràng Tiền
+	Đêm trăng buồn trên bến Vân Lâu
+	Ngâm câu mái đẩy giọng ai nghe thắm sầu
+	Bên ni bên nớ ai mong chờ
+	Xa rồi mà lòng thương Huế đẹp mộng mơ.
+	Về Sài Gòn đọc qua lịch sử
+	Từ lúc khai hoang xuống miền lục tỉnh xưa
+	Cho hôm nay tương lai thêm sáng ngời
+	Làm khách bốn phương đến rồi không nỡ đi
+	Đèn Sài Gòn ngọn xanh ngọn đỏ
+	Thành phố xa hoa suốt từ ba thế kỷ qua
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.Non nước hữu tình ba miền xinh đẹp quá
+	Từ những câu hò ý nhạc thành bài ca
+	Ngày vui em đến thăm Hà Nội
+	Gió chiều Hồ Gươm vang bóng thời xưa
+	Ba sáu phố phường năm cửa ô cổ kính
+	Về đất Quan Họ hát mừng ngày hội lim
+	Ngẫn ngơ như bức tranh tuyệt vời
+	Ngắm vịnh Hạ Long ngất ngây chùa Hương.
+	Đến Huế rồi thương dòng sông Hương
+	Đường qua Vĩ Dạ chợ Đông Ba Ngự Bình
+	Thăm lăng di tích thăm Thiên Mụ
+	Tóc thề chấm vai nghiên nón qua Tràng Tiền
+	Đêm trăng buồn trên bến Vân Lâu
+	Ngâm câu mái đẩy giọng ai nghe thắm sầu
+	Bên ni bên nớ ai mong chờ
+	Xa rồi mà lòng thương Huế đẹp mộng mơ.
+	Về Sài Gòn đọc qua lịch sử
+	Từ lúc khai hoang xuống miền lục tỉnh xưa
+	Cho hôm nay tương lai thêm sáng ngời
+	Làm khách bốn phương đến rồi không nỡ đi
+	Đèn Sài Gòn ngọn xanh ngọn đỏ
+	Thành phố xa hoa suốt từ ba thế kỷ qua
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.Non nước hữu tình ba miền xinh đẹp quá
+	Từ những câu hò ý nhạc thành bài ca
+	Ngày vui em đến thăm Hà Nội
+	Gió chiều Hồ Gươm vang bóng thời xưa
+	Ba sáu phố phường năm cửa ô cổ kính
+	Về đất Quan Họ hát mừng ngày hội lim
+	Ngẫn ngơ như bức tranh tuyệt vời
+	Ngắm vịnh Hạ Long ngất ngây chùa Hương.
+	Đến Huế rồi thương dòng sông Hương
+	Đường qua Vĩ Dạ chợ Đông Ba Ngự Bình
+	Thăm lăng di tích thăm Thiên Mụ
+	Tóc thề chấm vai nghiên nón qua Tràng Tiền
+	Đêm trăng buồn trên bến Vân Lâu
+	Ngâm câu mái đẩy giọng ai nghe thắm sầu
+	Bên ni bên nớ ai mong chờ
+	Xa rồi mà lòng thương Huế đẹp mộng mơ.
+	Về Sài Gòn đọc qua lịch sử
+	Từ lúc khai hoang xuống miền lục tỉnh xưa
+	Cho hôm nay tương lai thêm sáng ngời
+	Làm khách bốn phương đến rồi không nỡ đi
+	Đèn Sài Gòn ngọn xanh ngọn đỏ
+	Thành phố xa hoa suốt từ ba thế kỷ qua
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+		<hr>
+	</div><h1>overflow: scroll</h1>
+	<div id="target3">
+	Non nước hữu tình ba miền xinh đẹp quá
+	Từ những câu hò ý nhạc thành bài ca
+	Ngày vui em đến thăm Hà Nội
+	Gió chiều Hồ Gươm vang bóng thời xưa
+	Ba sáu phố phường năm cửa ô cổ kính
+	Về đất Quan Họ hát mừng ngày hội lim
+	Ngẫn ngơ như bức tranh tuyệt vời
+	Ngắm vịnh Hạ Long ngất ngây chùa Hương.
+	Đến Huế rồi thương dòng sông Hương
+	Đường qua Vĩ Dạ chợ Đông Ba Ngự Bình
+	Thăm lăng di tích thăm Thiên Mụ
+	Tóc thề chấm vai nghiên nón qua Tràng Tiền
+	Đêm trăng buồn trên bến Vân Lâu
+	Ngâm câu mái đẩy giọng ai nghe thắm sầu
+	Bên ni bên nớ ai mong chờ
+	Xa rồi mà lòng thương Huế đẹp mộng mơ.
+	Về Sài Gòn đọc qua lịch sử
+	Từ lúc khai hoang xuống miền lục tỉnh xưa
+	Cho hôm nay tương lai thêm sáng ngời
+	Làm khách bốn phương đến rồi không nỡ đi
+	Đèn Sài Gòn ngọn xanh ngọn đỏ
+	Thành phố xa hoa suốt từ ba thế kỷ qua
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.Non nước hữu tình ba miền xinh đẹp quá
+	Từ những câu hò ý nhạc thành bài ca
+	Ngày vui em đến thăm Hà Nội
+	Gió chiều Hồ Gươm vang bóng thời xưa
+	Ba sáu phố phường năm cửa ô cổ kính
+	Về đất Quan Họ hát mừng ngày hội lim
+	Ngẫn ngơ như bức tranh tuyệt vời
+	Ngắm vịnh Hạ Long ngất ngây chùa Hương.
+	Đến Huế rồi thương dòng sông Hương
+	Đường qua Vĩ Dạ chợ Đông Ba Ngự Bình
+	Thăm lăng di tích thăm Thiên Mụ
+	Tóc thề chấm vai nghiên nón qua Tràng Tiền
+	Đêm trăng buồn trên bến Vân Lâu
+	Ngâm câu mái đẩy giọng ai nghe thắm sầu
+	Bên ni bên nớ ai mong chờ
+	Xa rồi mà lòng thương Huế đẹp mộng mơ.
+	Về Sài Gòn đọc qua lịch sử
+	Từ lúc khai hoang xuống miền lục tỉnh xưa
+	Cho hôm nay tương lai thêm sáng ngời
+	Làm khách bốn phương đến rồi không nỡ đi
+	Đèn Sài Gòn ngọn xanh ngọn đỏ
+	Thành phố xa hoa suốt từ ba thế kỷ qua
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.Non nước hữu tình ba miền xinh đẹp quá
+	Từ những câu hò ý nhạc thành bài ca
+	Ngày vui em đến thăm Hà Nội
+	Gió chiều Hồ Gươm vang bóng thời xưa
+	Ba sáu phố phường năm cửa ô cổ kính
+	Về đất Quan Họ hát mừng ngày hội lim
+	Ngẫn ngơ như bức tranh tuyệt vời
+	Ngắm vịnh Hạ Long ngất ngây chùa Hương.
+	Đến Huế rồi thương dòng sông Hương
+	Đường qua Vĩ Dạ chợ Đông Ba Ngự Bình
+	Thăm lăng di tích thăm Thiên Mụ
+	Tóc thề chấm vai nghiên nón qua Tràng Tiền
+	Đêm trăng buồn trên bến Vân Lâu
+	Ngâm câu mái đẩy giọng ai nghe thắm sầu
+	Bên ni bên nớ ai mong chờ
+	Xa rồi mà lòng thương Huế đẹp mộng mơ.
+	Về Sài Gòn đọc qua lịch sử
+	Từ lúc khai hoang xuống miền lục tỉnh xưa
+	Cho hôm nay tương lai thêm sáng ngời
+	Làm khách bốn phương đến rồi không nỡ đi
+	Đèn Sài Gòn ngọn xanh ngọn đỏ
+	Thành phố xa hoa suốt từ ba thế kỷ qua
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	</div>
+	<h1>overflow: auto</h1>
+	<div id="target4">
+	Non nước hữu tình ba miền xinh đẹp quá
+	Từ những câu hò ý nhạc thành bài ca
+	Ngày vui em đến thăm Hà Nội
+	Gió chiều Hồ Gươm vang bóng thời xưa
+	Ba sáu phố phường năm cửa ô cổ kính
+	Về đất Quan Họ hát mừng ngày hội lim
+	Ngẫn ngơ như bức tranh tuyệt vời
+	Ngắm vịnh Hạ Long ngất ngây chùa Hương.
+	Đến Huế rồi thương dòng sông Hương
+	Đường qua Vĩ Dạ chợ Đông Ba Ngự Bình
+	Thăm lăng di tích thăm Thiên Mụ
+	Tóc thề chấm vai nghiên nón qua Tràng Tiền
+	Đêm trăng buồn trên bến Vân Lâu
+	Ngâm câu mái đẩy giọng ai nghe thắm sầu
+	Bên ni bên nớ ai mong chờ
+	Xa rồi mà lòng thương Huế đẹp mộng mơ.
+	Về Sài Gòn đọc qua lịch sử
+	Từ lúc khai hoang xuống miền lục tỉnh xưa
+	Cho hôm nay tương lai thêm sáng ngời
+	Làm khách bốn phương đến rồi không nỡ đi
+	Đèn Sài Gòn ngọn xanh ngọn đỏ
+	Thành phố xa hoa suốt từ ba thế kỷ qua
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.Non nước hữu tình ba miền xinh đẹp quá
+	Từ những câu hò ý nhạc thành bài ca
+	Ngày vui em đến thăm Hà Nội
+	Gió chiều Hồ Gươm vang bóng thời xưa
+	Ba sáu phố phường năm cửa ô cổ kính
+	Về đất Quan Họ hát mừng ngày hội lim
+	Ngẫn ngơ như bức tranh tuyệt vời
+	Ngắm vịnh Hạ Long ngất ngây chùa Hương.
+	Đến Huế rồi thương dòng sông Hương
+	Đường qua Vĩ Dạ chợ Đông Ba Ngự Bình
+	Thăm lăng di tích thăm Thiên Mụ
+	Tóc thề chấm vai nghiên nón qua Tràng Tiền
+	Đêm trăng buồn trên bến Vân Lâu
+	Ngâm câu mái đẩy giọng ai nghe thắm sầu
+	Bên ni bên nớ ai mong chờ
+	Xa rồi mà lòng thương Huế đẹp mộng mơ.
+	Về Sài Gòn đọc qua lịch sử
+	Từ lúc khai hoang xuống miền lục tỉnh xưa
+	Cho hôm nay tương lai thêm sáng ngời
+	Làm khách bốn phương đến rồi không nỡ đi
+	Đèn Sài Gòn ngọn xanh ngọn đỏ
+	Thành phố xa hoa suốt từ ba thế kỷ qua
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.Non nước hữu tình ba miền xinh đẹp quá
+	Từ những câu hò ý nhạc thành bài ca
+	Ngày vui em đến thăm Hà Nội
+	Gió chiều Hồ Gươm vang bóng thời xưa
+	Ba sáu phố phường năm cửa ô cổ kính
+	Về đất Quan Họ hát mừng ngày hội lim
+	Ngẫn ngơ như bức tranh tuyệt vời
+	Ngắm vịnh Hạ Long ngất ngây chùa Hương.
+	Đến Huế rồi thương dòng sông Hương
+	Đường qua Vĩ Dạ chợ Đông Ba Ngự Bình
+	Thăm lăng di tích thăm Thiên Mụ
+	Tóc thề chấm vai nghiên nón qua Tràng Tiền
+	Đêm trăng buồn trên bến Vân Lâu
+	Ngâm câu mái đẩy giọng ai nghe thắm sầu
+	Bên ni bên nớ ai mong chờ
+	Xa rồi mà lòng thương Huế đẹp mộng mơ.
+	Về Sài Gòn đọc qua lịch sử
+	Từ lúc khai hoang xuống miền lục tỉnh xưa
+	Cho hôm nay tương lai thêm sáng ngời
+	Làm khách bốn phương đến rồi không nỡ đi
+	Đèn Sài Gòn ngọn xanh ngọn đỏ
+	Thành phố xa hoa suốt từ ba thế kỷ qua
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	Dang đôi tay hoa khôi em đón mời
+	Cùng với năm châu Sài Gòn hòn ngọc viễn đông.
+	</div>
+	</table>
+</body>
+</html>
