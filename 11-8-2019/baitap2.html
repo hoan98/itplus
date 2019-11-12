@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bài Tập</title>
+    <title>Title</title>
 
     <style type="text/css">
-		div p{
-			background: rgba(65,245,91,1.00);
+		#box1 p{
+			background: rgba(63,255,103,1.00);
 		}
-		p{
-			background: rgba(247,0,4,1.00);
+		#box2 p {
+			background: red;
 		}
     </style>
 </head>
@@ -20,19 +20,23 @@
         1 tên thẻ : p {}
         2 id : #p1 {}
         3 class : .class {}
-        Yêu cầu 3 thẻ p trong thẻ div có màu xanh
-        thẻ p4 bên ngoài div có màu đỏ
+        Yêu cầu 3 thẻ p trong thẻ div có id box1 có màu xanh
+        thẻ p4 trong thẻ div có id box2 có màu đỏ
 
         Link tham khảo : https://www.w3schools.com/cssref/css_selectors.asp
     </pre>
 
-    <div>
+    <div id="box1">
         <p>Thẻ p1</p>
         <p>Thẻ p2</p>
         <p>Thẻ p3</p>
     </div>
 
-    <p>Thẻ p4</p>
+    <div id="box2">
+        <p>Thẻ p4</p>
+    </div>
+
+
 
 </body>
 </html>
