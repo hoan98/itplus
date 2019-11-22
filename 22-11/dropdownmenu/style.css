@@ -1,0 +1,88 @@
+/* CSS Document */
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+	
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.site-wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+header .header-inner{
+	background-color: gray;
+	font-size: 32px;
+	text-align:center;
+	padding: 32px 0;
+}
+header .main-navigation .main-menu{
+	list-style: none;
+	background: gray;
+	padding: 0;
+	margin: 0;
+}
+/*li.menuitem là li cấp 1*/
+.main-navigation .main-menu li.menuitem{
+	background: orange;
+	float: left;
+	position: relative;
+}
+.main-navigation .main-menu li.sunmenu-item{
+	position: relative;
+}
+.main-navigation .main-menu li.menuitem:hover > ul.submenu{
+	display: block;
+	
+}
+.main-navigation .main-menu li.sunmenu-item:hover > ul.submenu{
+	display: block;
+}
+.main-navigation .main-menu li a {
+	
+	color: white;
+	font-size: 30px;
+	display: block;
+	background-color: orange;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+.main-navigation .main-menu li a:hover{
+	background: tomato;
+}
+
+nav li.menuitem > .submenu{
+	display: none;
+	width: 300px;
+	position: absolute;
+	top: 53px;
+	left: 0px;
+}
+nav li.menuitem .submenu .submenu{
+	display: none;
+	width: 300px;
+	position: absolute;
+	top: 
+		0;
+	left: 300px;
+}
+nav .submenu li.sunmenu-item {
+	border-bottom: 1px solid white;
+}
+
+
+
+
+
+
+
+
+

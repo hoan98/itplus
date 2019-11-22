@@ -1,0 +1,35 @@
+/* CSS Document */
+.site-wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+header .header-inner{
+	background-color: gray;
+	font-size: 32px;
+	text-align:center;
+	padding: 32px 0;
+}
+header .main-navigation .main-menu{
+	list-style: none;
+	background: gray;
+	padding: 0;
+	margin: 0;
+}
+.main-navigation .main-menu li{
+	background: orange;
+	float: left;
+	
+}
+.main-navigation .main-menu li a {
+	
+	color: white;
+	font-size: 10px;
+	display: block;
+	background-color: orange;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+.main-navigation .main-menu li a:hover{
+	background: tomato;
+}
